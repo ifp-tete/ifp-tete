@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Qual é a capital de Moçambique?",
+        "options": ["Maputo", "Beira", "Nampula", "Tete"],
+        "answer": 0
+    },
+    {
+        "question": "Quantos anos tem o curso 12ª + 3 no IFP-Tete?",
+        "options": ["1 ano", "2 anos", "3 anos", "4 anos"],
+        "answer": 2
+    },
+    {
+        "question": "Qual destas disciplinas é lecionada no IFP-Tete?",
+        "options": ["Matemática", "Engenharia", "Medicina", "Arquitetura"],
+        "answer": 0
+    },
+    {
+        "question": "Qual é a missão do IFP-Tete?",
+        "options": [
+            "Formar professores qualificados e comprometidos",
+            "Construir hospitais",
+            "Organizar festas culturais",
+            "Produzir vídeos educativos apenas"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qual é a cor principal do logotipo do IFP-Tete?",
+        "options": ["Azul", "Verde", "Vermelho", "Amarelo"],
+        "answer": 0
+    }
+]

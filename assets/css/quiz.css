@@ -1,0 +1,44 @@
+/* quiz.css - CSS para a página do Quiz */
+
+.quiz-container {
+    margin-bottom: 30px;
+}
+
+.question-block {
+    margin-bottom: 25px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.options button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #e0e0e0;
+    cursor: pointer;
+    text-align: left;
+}
+
+.options button:hover {
+    background: #c0c0c0;
+}
+
+.options button.correct {
+    background-color: #4CAF50 !important;
+    color: white;
+}
+
+.options button.wrong {
+    background-color: #f44336 !important;
+    color: white;
+}

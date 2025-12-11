@@ -1,0 +1,37 @@
+/* gallery.css - CSS para a galeria de fotos e vídeos */
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    flex: 1 1 250px;
+    max-width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    background: white;
+    text-align: center;
+}
+
+.gallery-item img, 
+.gallery-item video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item h3 {
+    margin: 10px 0;
+    color: #003366;
+}
+
+.gallery-item p {
+    padding: 0 10px 10px 10px;
+    font-size: 14px;
+    color: #333;
+}
