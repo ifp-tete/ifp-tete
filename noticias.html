@@ -5,7 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notícias - IFP Tete</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f0f0f0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #004d1a;
+            border-left: 5px solid #008037;
+            padding-left: 10px;
+        }
+
+        .noticia {
+            background: #e8ffe8;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 5px solid #008037;
+            border-radius: 5px;
+
+        }
+    </style>
 </head>
+
+<script>
+function toggleMenu() {
+    document.querySelector('.menu').classList.toggle('active');
+}
+</script>
 
 <body>
     <!-- Cabeçalho -->
@@ -32,6 +70,7 @@
         </nav>
     </header>
 
+    <div class="container">
     <!-- Conteúdo -->
     <main>
         <section class="intro">
@@ -39,31 +78,38 @@
             <p>Fique atualizado com as últimas notícias, eventos, formações, actividades académicas e informações importantes do IFP-Tete.</p>
         </section>
 
+        <div class="noticia">
         <section class="noticias">
             <article class="noticia">
-                <h3>📌 Matrículas Abertas para o Ano Lectivo 2025</h3>
+                <h3> Matrículas Abertas para o Ano Lectivo 2026</h3>
                 <p>As inscrições para o próximo ano lectivo já estão abertas. Todos os candidatos devem apresentar documentos completos na secretaria.</p>
                 <span class="data">Publicado em: 12 Dezembro 2024</span>
             </article>
+        </div>
 
+        <div class="noticia">
             <article class="noticia">
-                <h3>📚 Novo Material Didáctico Disponível</h3>
+                <h3> Novo Material Didáctico Disponível</h3>
                 <p>Foram adicionados novos materiais didáticos para apoio aos estudantes e formadores na disciplina de Didática da Língua Portuguesa.</p>
                 <span class="data">Publicado em: 05 Dezembro 2024</span>
             </article>
+        </div>
 
+        <div class="noticia">
             <article class="noticia">
-                <h3>🎓 Cerimónia de Graduação dos Finalistas 12ª + 3</h3>
-                <p>A cerimónia oficial de graduação irá decorrer no pátio da instituição no dia 18 de Janeiro de 2025.</p>
-                <span class="data">Publicado em: 30 Novembro 2024</span>
+                <h3> Cerimónia de Graduação dos Finalistas 12ª Classe + 3 Ano</h3>
+                <p>Foram 138 Graduados na 4ª cerimónia oficial de graduação, que decorreu no Pavilhão de CREI no dia 12 de Dezembro de 2025.</p>
+                <span class="data">Publicado em: 17 Dezembro de 2025 - quarta-feira</span>
             </article>
+        </div>
 
+        <div class="noticia">
             <article class="noticia">
-                <h3>🏫 Manutenção das Infraestruturas</h3>
+                <h3> Manutenção das Infraestruturas</h3>
                 <p>O IFP-Tete iniciou um programa de manutenção das salas de aula e residências estudantis. As obras decorrerão durante todo o mês.</p>
                 <span class="data">Publicado em: 20 Novembro 2024</span>
             </article>
-
+        </div>
         </section>
     </main>
 
