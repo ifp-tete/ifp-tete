@@ -332,3 +332,39 @@ body {
         font-size: 14px;
     }
 }
+
+/* ===============================
+   MODO FIXO DEFINITIVO – IFP-TETE
+================================ */
+
+/* Largura fixa global */
+html, body {
+    width: 1200px;
+    min-width: 1200px;
+    overflow-x: auto;
+    font-size: 16px;
+}
+
+/* Impede aumento automático do texto */
+* {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+/* Container fixo */
+.container,
+.navbar,
+.banner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Banner fixo */
+.banner {
+    height: 300px;
+}
+
+/* Imagens não adaptativas */
+img {
+    max-width: none;
+}
